@@ -1,1 +1,8 @@
 /* Add your own CSS code below */
+
+
+.countries {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
