@@ -1,6 +1,21 @@
 /* Try different box model properties below */
+
 .pages__page {
   border: 1px solid #4491db;
   border-radius: 4px;
   background: #fff;
+}
+
+ul {
+  border: 8px solid #D6D8E1;
+  width: 30%;
+  padding: 0;
+}
+
+ul li {
+  color: black;
+  font-size: 20px;
+  padding: 11px;
+  border: 2px solid #D6D8E1;
+  display: block;
 }
