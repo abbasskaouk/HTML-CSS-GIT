@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>25 - T-Shirt Size - HTML, CSS and Git Exercises</title>
-    <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/week3-forms.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/week3-forms.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -24,12 +24,17 @@
             <tr>
               <td>
                 <div class="shopping-basket__product">
-                  <img src="/images/22/shirts.jpg" alt="Codi t-shirts in black" />
+                  <img src="images/22/shirts.jpg" alt="Codi t-shirts in black" />
                   <p>Codi t-shirt, black</p>
                 </div>
               </td>
               <td>
-                Medium
+                <label for="size" class="screenreader">Choose a size</label>
+                <select>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select>
               </td>
               <td>
                 1
