@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>22 - Checkout Form - HTML, CSS and Git Exercises</title>
-    <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/week3-forms.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/week3-forms.css" />
   </head>
 
   <body>
@@ -23,7 +23,7 @@
             <tr>
               <td>
                 <div class="shopping-basket__product">
-                  <img src="/images/22/shirts.jpg" alt="Codi t-shirts in black" />
+                  <img src="images/22/shirts.jpg" alt="Codi t-shirts in black" />
                   <p>Codi t-shirt, black</p>
                 </div>
               </td>
@@ -38,7 +38,12 @@
           <h2 class="checkout__title">Checkout</h2>
           <form method="GET" id="checkout-form" class="checkout__form">
             <!-- Add the form fields here -->
-
+            <label for="customer-name">Name</label>
+            <input type="text" name="customer-name" id="customer-name"><br>
+            <label for="customer-email">Email</label>
+            <input type="email" name="customer-email" id="customer-email"><br>
+            <label for="customer-phone">Phone</label>
+            <input type="tel" name="customer-phone" id="customer-phone"><br>
             <button type="submit">Complete Purchase</button>
           </form>
         </div>
